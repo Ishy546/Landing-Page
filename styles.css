@@ -1,0 +1,26 @@
+.Copyright{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.action{
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 25px;
+}
+.quote{
+    background-color: #E5E7EB;
+}

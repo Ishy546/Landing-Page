@@ -1,0 +1,1 @@
+Hello! In this landing-page project, I am replicating this image: [alt text](image.png) with this font: ![alt text](image-1.png).

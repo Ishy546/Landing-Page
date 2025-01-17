@@ -1,137 +1,96 @@
 *{
-    box-sizing: border-box;
-    margin: 0; 
+    margin: 0;
     padding: 0;
-}
-.Copyright{
-    background-color: #1F2937;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-}
-.action{
-    background-color: #3882F6;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    margin: 40px;
-    padding: 25px;
-}
-.quote{
-    background-color: #E5E7EB;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-}
-.credit{
-    justify-content: flex-end;
-}
-.awesome{
-    font-size: 36px;
-    font-weight: 900;
-}
-.logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 90px;
-    list-style-type: none;
-    background-color: #1F2937;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-li{
-    gap: 20px;
-}
-.intro{
-    display: flex;
-    padding: 20px 90px;
-    gap: 40px;
-    background-color: #1F2937;
-    color: #E5E7EB;
-    justify-content: center;
-    align-items: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.j{
-    font-weight: bold;
-}
-.img{
-    justify-content: center;
-    align-self: center;
-    background-color: gray;
-    font-size: 18px;
-    padding: 20px;
-    color: #E5E7EB;
 }
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
-.intel{
-    font-weight: bold;
+
+.first-section{
+    background-color: #1F2937;
+}
+#header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-link{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px;
+}
+.navbar{
+    display: flex;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-left, .navbar-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin:50px;
+}
+.content-left{
+    display: flex;
+    margin-left: 70px;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+ .content-right{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 36px;
+    flex-direction: column;
+    width: 50%;
 }
-.container {
-    display: flex;
-    justify-content: center;
-    gap: 52px;
-  }
-  .info {
+img{
+    margin: 50px;
+}
+.p-first{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.sign-up-first-section{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 10px #3882F6;
+    border-radius: 10px;
+}
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
     text-align: center;
-    max-width: 150px;
-  }
-  .block{
+}
+.row-of-blue-divs{
+    display:flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 80px;
+}
+.box-blue{
+    border: 3px solid #3882F6;
     width: 150px;
     height: 150px;
-    background-color: white;
-    outline: solid #3882F6;
-    border-radius: 10px;
-    transition: trabsform 0.3s ease;
-  }
-  #SignUp1{
-    background-color: #3882F6;
-    font-size:15px;
-    font-weight:bold;
-    padding:10px;
-    padding-left:25px;
-    padding-right:25px;
-    align-self: flex-start;
-    border-radius:10px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    color:white; 
-    outline:solid white 3px; 
-    margin-left:auto; 
-    margin-right:90px; 
-    margin-top:auto; 
-    margin-bottom:auto;
-  }
-  #SignUp{
-    background-color: #3882F6;
-    font-size:15px;
-    font-weight:bold;
-    padding:10px;
-    padding-left:25px;
-    padding-right:25px;
-    align-self: flex-start;
-    border-radius:10px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    color:white; 
-    outline:solid white 3px; 
-    margin-left:auto; 
-    margin-right:90px; 
-    margin-top:auto; 
-    margin-bottom:auto;
-  }
-  .intro2{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
+    border-radius: 15px;
+    
+}
+.p-second{
+    text-align: center;
 
-  
+}

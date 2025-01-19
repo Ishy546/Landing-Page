@@ -1,1 +1,1 @@
-Hello! In this landing-page project, I am replicating this image: [alt text](image.png) with this format: ![alt text](image-1.png).
+Hello! In this landing-page project, I am replicating this image: [alt text](image.png) with this format: ![alt text](image-1.png). The photo in the website is by Darlene Anderson.
